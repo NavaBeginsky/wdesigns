@@ -86,7 +86,6 @@ main {
 }
 
 .wendy-img {
-	float: right;
 	margin-left: 30px;
 	margin-bottom: 30px;
 }
@@ -118,7 +117,9 @@ footer li {
 		height: 75px;
 	}
 
-	.wendy-img{
-		float: none;
+	.wendy-img {
+		display: block;
+		margin: auto;
+		margin-bottom: 25px;
 	}
 }
