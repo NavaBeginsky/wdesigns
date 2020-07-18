@@ -112,3 +112,13 @@ footer a:hover {
 footer li {
 	line-height: 1.5;
 }
+
+@media screen and (max-width: 800px){
+	.navbar-brand img{
+		height: 75px;
+	}
+
+	.wendy-img{
+		float: none;
+	}
+}
