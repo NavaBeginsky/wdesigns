@@ -83,11 +83,14 @@ main {
 .about-container{
 	margin: 50px auto;
 	font-size: 1.5em;
+	font-family: 'Dancing Script', cursive;
 }
 
 .wendy-img {
 	margin-left: 30px;
 	margin-bottom: 30px;
+	width: 180px;
+	border-radius: 5px;
 }
 
 footer a{
@@ -117,9 +120,20 @@ footer li {
 		height: 75px;
 	}
 
+	.about-container h2{
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
 	.wendy-img {
 		display: block;
 		margin: auto;
 		margin-bottom: 25px;
+	}
+
+	.gallery {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-row-gap: 5px;
 	}
 }
