@@ -19,7 +19,7 @@ body {
 }
 
 footer {
-	background: #414042;
+	background: #343A40;
 
 }
 
@@ -40,6 +40,11 @@ h2.footer-contact{
 	margin-left: 10px;
 	color: white;
 
+}
+
+.footer-contact.contact-page{
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
 }
 
 .contact-icons{
@@ -113,6 +118,11 @@ footer a:hover {
 
 footer li {
 	line-height: 1.5;
+}
+
+
+.services-headers{
+	margin-bottom: 1.1em;
 }
 
 @media screen and (max-width: 800px){
