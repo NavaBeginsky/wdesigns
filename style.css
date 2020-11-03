@@ -23,6 +23,10 @@ footer {
 
 }
 
+.car-img {
+	height: 85vh;
+}
+
 ul.contact-info{
 	list-style-type: none;
 	margin-left: 10px;
